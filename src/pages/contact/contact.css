@@ -1,0 +1,124 @@
+.contitle{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 200px;
+    width: 150px;
+    left: 800px;
+    font-size: 25px;
+    row-gap: 20px;
+}
+.cotitle{
+    font-size: 45px;
+}
+.contitle div{
+    display: flex;
+    align-items: center;
+}
+.background{
+    width: 100%;
+}
+.getcontact{
+    text-align: center;
+    width: 700px;
+    line-height: 1.7;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    justify-content: space-around;
+}
+
+.form{
+    display: flex;
+justify-content: center;
+margin:60px 120px;
+}
+form input{
+    width: 528px;
+    height: 75px;
+    border: 1px solid gray;
+    padding:20px ;
+
+}
+form textarea{
+    padding: 20px;
+    width: 528px;
+    height: 130px;
+    border: 1px solid gray;
+}
+.conlink{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.conlink span{
+    font-size: 20px;
+margin-left: 10px;
+}
+form button{
+    width: 237px;
+    height: 55px;
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+form label{
+    font-size: 22px;
+}
+@media screen and (max-width:480px){
+.contitle{
+    left: 170px;
+    bottom:85px;
+    font-size: 20px;
+}
+.form{
+    margin: 0;
+    flex-direction: column;
+}
+.cotitle{
+    font-size: 25px;
+
+}
+.getcontact h1{
+    font-size: 25px;
+}
+.getcontact{
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+.conlink{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    column-gap: 20px;
+    margin: auto;
+}
+form{
+    margin: 40px 0 0 0;
+}
+form label{
+    margin-bottom: 20px;
+}
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+form textarea{
+    width: 100%;
+}
+form{
+    width: 100%;
+    height: 700px;
+}
+form button{
+    margin-left: 100px   ;
+}
+}

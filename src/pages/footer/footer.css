@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 40px 80px;
+height: 250px;
+}
+.footerfuniro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+
+.titlefooter.links{
+    padding-left: 60px;
+}
+.newsletter button{
+    border: none;
+    border-bottom:1px solid black ;
+    margin-left: 10PX;
+    cursor: pointer;
+}
+.newsletter input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links li{
+    list-style: none;
+    margin-top: 10px;
+}
+.help li{
+    list-style: none;
+    margin-top: 10px;
+}
+@media screen and (max-width:480px){
+    .footer{
+        padding:0;
+        margin-top: 20px;
+    }
+    .footerfuniro{
+        width: 100%;
+    }
+    .help{
+        margin: 10px;
+    }
+}

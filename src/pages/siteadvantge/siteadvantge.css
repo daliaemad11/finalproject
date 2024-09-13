@@ -1,0 +1,43 @@
+.siteadvantage{
+    background-color: #FAF3EA;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 90px;
+}
+.adv{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.adv span{
+    display: block;
+    color: gray;
+    font-size: 17px;
+}
+.adv img{
+    width: 40px;
+}
+@media screen and (max-width:480px){
+    .siteadvantage{
+        width: 100%;
+        padding: 0;
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    .adv span{
+        display: block;
+        font-size: 17px;
+    }
+    .adv h2{
+        font-size: 20px;
+    }
+    .adv{
+        margin-left:100px ;
+    }
+}

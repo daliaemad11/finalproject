@@ -1,0 +1,113 @@
+
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px;
+    /* position: fixed; */
+    z-index: 99;
+}
+header h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    display: block ;
+    margin-left: 80px;
+    color: black;
+}
+nav{
+    display: flex ;
+    width: 500px;
+    align-items: center;
+}
+.cart {
+    list-style: none;
+}
+.numitem{
+    border-radius: 50%;
+    height: 20px;
+    background-color:antiquewhite;
+    width: 20px;
+    display: flex;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.showcartitem{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+    position:absolute;
+    top: 80px;
+    right: 0;
+    z-index: 11;
+    box-shadow: 0 5px 20px 10px gainsboro;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sidebar{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.totalprice{
+    font-size: 22px;
+}
+.cartitemimg{
+    border-radius: 20%;
+    width: 60px;
+    
+}
+.showcartitem div{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.gocart{
+border: none;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+background-color: antiquewhite;
+font-weight: 700;
+cursor: pointer;
+}
+.linecart{
+    width: 80%;
+    height: 1px;
+}
+@media screen and (max-width:480px){
+    header h1{
+        font-size: 23px;
+    }
+    nav a{
+        font-size: 19px;
+        margin-left: 20px;
+
+    }
+    nav{
+        width: 70%;
+        margin-left: 20px;
+    }
+   .sidebar img{
+    margin-top: 10px;
+   }
+}
