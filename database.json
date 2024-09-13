@@ -3,17 +3,17 @@
        { 
         "id":"1", 
         "title": "electronics",
-        "catimg":"../public/imgs/دراسة-جدوى-مشروع-أجهزة-الكترونية-1-650x405.jpg"
+        "catimg":"/imgs/دراسة-جدوى-مشروع-أجهزة-الكترونية-1-650x405.jpg"
     },
     { 
         "id":"2", 
         "title": "jewelery",
-        "catimg":"../public/imgs/mgohrat-thhb.jpg"
+        "catimg":"/imgs/mgohrat-thhb.jpg"
     },
     { 
         "id":"3", 
         "title": "clothing",
-        "catimg":"../public/imgs/wash-new-clothes-before-wearing-2146345-03-999483b3d51a435ba53c8d9ef5c2d5c4.jpg"
+        "catimg":"/imgs/wash-new-clothes-before-wearing-2146345-03-999483b3d51a435ba53c8d9ef5c2d5c4.jpg"
     }
 
     ],

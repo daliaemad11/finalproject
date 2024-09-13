@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './home.css'
 import Siteadvantge from '../siteadvantge/siteadvantge';
+import homebackground from "/imgs/scandinavian-interior-mockup-wall-decal-background 1.png"
 import Footer from '../footer/footer';
 function Home(){
     const [category,setcategory]=useState([])
@@ -13,7 +14,7 @@ function Home(){
       },[])
     return (<>
     <div className='homedetails'>
-        <img src="../../../public/imgs/scandinavian-interior-mockup-wall-decal-background 1.png" alt="" />
+        <img src={homebackground} alt="" />
         <h1>Categories</h1>
 
     <div className='category'>

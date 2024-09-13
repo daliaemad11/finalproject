@@ -1,15 +1,20 @@
 import './contact.css'
 import Footer from '../footer/footer';
 import Siteadvantge from '../siteadvantge/siteadvantge';
+import conimg from "/imgs/Rectangle 1.png"
+import home from "/imgs/dashicons_arrow-up-alt2.svg"
+import vector from "/imgs/Vector.svg"
+import phone from"/imgs/bxs_phone.svg"
+import clock from "/imgs/bi_clock-fill.svg"
 function Contact(){
 return(<>
 <div className='contactheader'>
-    <img className='background' src="../../../public/imgs/Rectangle 1.png" alt="" />
+    <img className='background' src={conimg} alt="" />
     <div className='contitle'>
     <label className='cotitle'>Contact</label>
 <div>
     <label>home</label>
-    <img src="../../../public/imgs/dashicons_arrow-up-alt2.svg" alt="" />
+    <img src= {home} alt="" />
     <label>contact</label>
 </div>
     </div>
@@ -22,16 +27,16 @@ return(<>
 <div className='form'>
     <div className='conlink'>
         <div className='linkscon'>
-            <img src="../../../public/imgs/Vector.svg" alt="" />
+            <img src={vector} alt="" />
             <label><span>Address</span><br/>236 5th SE Avenue, New York NY10000, United States</label>
         </div>
         <div>
-            <img src="../../../public/imgs/bxs_phone.svg" alt="" />
+            <img src={phone} alt="" />
             <label><span>Phone</span><br/>Mobile: +(84) 546-6789
             Hotline: +(84) 456-6789</label>
         </div>
         <div>
-            <img src="../../../public/imgs/bi_clock-fill.svg" alt="" />
+            <img src={clock} alt="" />
             <label><span>Working Time</span><br/>Monday-Friday: 9:00 - 22:00
             Saturday-Sunday: 9:00 - 21:00</label>
         </div>
