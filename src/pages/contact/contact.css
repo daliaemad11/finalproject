@@ -71,7 +71,7 @@ form button{
 form label{
     font-size: 22px;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
 .contitle{
     left: 170px;
     bottom:5px;

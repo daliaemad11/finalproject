@@ -76,7 +76,7 @@
 .cover:hover{
     opacity: 1;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
     .products{
         flex-direction: column;
         width: 100%;

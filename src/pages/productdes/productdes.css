@@ -180,7 +180,7 @@ row-gap: 30px;
     margin-bottom: 40px;
     line-height: 1.5;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
 .line{
     width: 60%;
 }

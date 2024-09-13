@@ -21,16 +21,9 @@ function Productdes(){
     const [product, setproduct] = useState([])
     //const [loading,setloading]=useState(false)
     //const [productdes,setproductdes]=useState([])
-    const[counter,setcounter]=useState(0)
-    function increament(){
-        setcounter(cart.itemcount+1)
-    }
-    function decreament(){
-        if (cart.itemcount>0) {
-            setcounter(cart.itemcount-1)
-
-        }
-    }
+    //const[counter,setcounter]=useState(0)
+    
+   
     useEffect(()=>{
         fetch(`http://localhost:3000/product/${id}`)
         .then(res=>res.json())
