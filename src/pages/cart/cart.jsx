@@ -11,7 +11,7 @@ const [product, setproduct] = useState([])
 
 
 useEffect(()=>{
-    fetch(`http://localhost:3000/product}`)
+    fetch(`https://fakestoreapi.com/products}`)
     .then(res=>res.json())
     .then(json=>setproduct(json))
       

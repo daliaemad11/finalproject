@@ -25,7 +25,7 @@ function Productdes(){
     
    
     useEffect(()=>{
-        fetch(`http://localhost:3000/product/${id}`)
+        fetch(`https://fakestoreapi.com/products/${id}`)
         .then(res=>res.json())
         .then(json=>setproduct(json))
           
